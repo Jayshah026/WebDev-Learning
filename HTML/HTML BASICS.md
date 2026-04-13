@@ -21,8 +21,7 @@
 => The main difference is that if the order not matter then use <ul> and if matters then use <ol> and between them use <li> to make the list. 
 
 
-
-#Important
+## Important
 
 1. In the HTML we need to add <!DOCTYPE html> at the starting of the code.
 2. <html> </html> : This contain all the data inside it.
