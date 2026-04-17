@@ -20,6 +20,17 @@
 
 => The main difference is that if the order not matter then use <ul> and if matters then use <ol> and between them use <li> to make the list. 
 
+## Adding Links : 
+
+1. In this method the link will open in the same tab.
+
+- So here when we want to add a link in the web then we are using "href" with "a" element in the body. Togather when we are using this then we can write this..
+
+<a href = "https://www.theodinproject.com/about"> About the odin project</a>  ==> Like this we are adding links 
+
+2. In this method the link will open in the different tab.
+
+<a href = "https://www.theodinproject.com/about" target = "_blank" rel = "noreferrer"> About the odin project</a>
 
 ## Important
 
