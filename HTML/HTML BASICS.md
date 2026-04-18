@@ -1,5 +1,6 @@
 # Basics of HTML 
 
+
 ## Tags and their uses 
 
 1. <title> </title> : For naming the website so user can identifie it.
