@@ -1,418 +1,390 @@
-```## HTML BASIC
+## HTML BASIC
 
-<!DOCTYPE html> : Tells the browser that this document is an HTML5 document.
+`<!DOCTYPE html>` : Tells the browser that this document is an HTML5 document.
 
-<html> : Root element of the webpage. Everything is written inside this tag.
+`<html>` : Root element of the webpage. Everything is written inside this tag.
 
-<head> : Contains webpage information that is not visible on the page.
+`<head>` : Contains webpage information that is not visible on the page.
 
-<body> : Contains all visible content of the webpage.
+`<body>` : Contains all visible content of the webpage.
 
-<title> : Sets the name of the webpage shown in the browser tab.
+`<title>` : Sets the name of the webpage shown in the browser tab.
 
-<meta charset="UTF-8"> : Allows the webpage to display all characters and symbols properly.
+`<meta charset="UTF-8">` : Allows the webpage to display all characters and symbols properly.
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> : Makes the website responsive on mobile devices.
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">` : Makes the website responsive on mobile devices.
 
-<link rel="stylesheet" href="style.css"> : Connects the HTML file with a CSS file for styling.
+`<link rel="stylesheet" href="style.css">` : Connects the HTML file with a CSS file for styling.
 
-<script src="script.js"></script> : Connects the HTML file with a JavaScript file for functionality.
+`<script src="script.js"></script>` : Connects the HTML file with a JavaScript file for functionality.
 
-<h1> : Main heading of the webpage.
-<h2> : Sub-heading.
-<h3> : Smaller sub-heading.
-<h4> : Smaller sub-heading.
-<h5> : Smaller sub-heading.
-<h6> : Smallest heading.
+`<h1>` : Main heading of the webpage.
 
-<p> : Used to write paragraphs and normal text content.
+`<h2>` : Sub-heading.
 
-<br> : Moves content to the next line.
+`<h3>` : Smaller sub-heading.
 
-<hr> : Creates a horizontal dividing line.
+`<h4>` : Smaller sub-heading.
 
-<b> : Makes text bold.
+`<h5>` : Smaller sub-heading.
 
-<strong> : Marks text as important and displays it in bold.
+`<h6>` : Smallest heading.
 
-<i> : Makes text italic.
+`<p>` : Used to write paragraphs and normal text content.
 
-<em> : Adds emphasis to text and displays it in italic.
+`<br>` : Moves content to the next line.
 
-<u> : Underlines text.
+`<hr>` : Creates a horizontal dividing line.
 
-<a href=""> : Creates a clickable link to another page or website.
+`<b>` : Makes text bold.
 
-<img src="" alt=""> : Displays an image on the webpage.
-src : Specifies the image location.
-alt : Alternative text shown if the image cannot load.
+`<strong>` : Marks text as important and displays it in bold.
 
-<ul> : Creates an unordered (bullet point) list.
+`<i>` : Makes text italic.
 
-<ol> : Creates an ordered (numbered) list.
+`<em>` : Adds emphasis to text and displays it in italic.
 
-<li> : Represents a single item inside a list.
+`<u>` : Underlines text.
 
-<div> : Generic container used to group elements for styling and layout.
+`<a href="">` : Creates a clickable link to another page or website.
 
-<span> : Used to style or manipulate a small part of text.
+`<img src="" alt="">` : Displays an image on the webpage.
 
-<form> : Creates a form for collecting user input.
+`src` : Specifies the image location.
 
-<input> : Allows users to enter data.
+`alt` : Alternative text shown if the image cannot load.
 
-<input type="text"> : Text input field.
+`<ul>` : Creates an unordered (bullet point) list.
 
-<input type="password"> : Password input field.
+`<ol>` : Creates an ordered (numbered) list.
 
-<input type="email"> : Email input field.
+`<li>` : Represents a single item inside a list.
 
-<input type="number"> : Number input field.
+`<div>` : Generic container used to group elements for styling and layout.
 
-<input type="date"> : Date picker input field.
+`<span>` : Used to style or manipulate a small part of text.
 
-<input type="checkbox"> : Checkbox input field.
+`<form>` : Creates a form for collecting user input.
 
-<input type="radio"> : Radio button input field.
+`<input>` : Allows users to enter data.
 
-<label> : Provides a label or description for an input field.
+`<input type="text">` : Text input field.
 
-<button> : Creates a clickable button.
+`<input type="password">` : Password input field.
 
-<textarea> : Allows users to enter multiple lines of text.
+`<input type="email">` : Email input field.
 
-<select> : Creates a dropdown menu.
+`<input type="number">` : Number input field.
 
-<option> : Represents an option inside a dropdown menu.
+`<input type="date">` : Date picker input field.
 
-<table> : Creates a table.
+`<input type="checkbox">` : Checkbox input field.
 
-<tr> : Creates a table row.
+`<input type="radio">` : Radio button input field.
 
-<th> : Creates a table header cell.
+`<label>` : Provides a label or description for an input field.
 
-<td> : Creates a table data cell.
+`<button>` : Creates a clickable button.
 
-<header> : Represents the top section of a webpage.
+`<textarea>` : Allows users to enter multiple lines of text.
 
-<nav> : Contains navigation links.
+`<select>` : Creates a dropdown menu.
 
-<main> : Contains the main content of the webpage.
+`<option>` : Represents an option inside a dropdown menu.
 
-<section> : Groups related content together.
+`<table>` : Creates a table.
 
-<article> : Represents independent content such as blog posts or news articles.
+`<tr>` : Creates a table row.
 
-<aside> : Contains sidebar or extra content.
+`<th>` : Creates a table header cell.
 
-<footer> : Represents the bottom section of a webpage.
+`<td>` : Creates a table data cell.
 
-<!-- Comment --> : Adds comments in HTML that are not displayed on the webpage.
+`<header>` : Represents the top section of a webpage.
 
-iframe : Embeds another webpage, video, map, or external content inside the webpage.
+`<nav>` : Contains navigation links.
 
-audio : Embeds audio files into the webpage.
+`<main>` : Contains the main content of the webpage.
 
-video : Embeds video files into the webpage.
+`<section>` : Groups related content together.
 
-source : Specifies media files for audio or video elements.
+`<article>` : Represents independent content such as blog posts or news articles.
 
-figure : Groups images, diagrams, or illustrations with captions.
+`<aside>` : Contains sidebar or extra content.
 
-figcaption : Adds a caption to a figure element.
+`<footer>` : Represents the bottom section of a webpage.
 
-details : Creates a collapsible section that users can open and close.
+`<!-- Comment -->` : Adds comments in HTML that are not displayed on the webpage.
 
-summary : Defines the visible heading of a details element.
+`<iframe>` : Embeds another webpage, video, map, or external content inside the webpage.
 
-mark : Highlights text with a colored background.
+`<audio>` : Embeds audio files into the webpage.
 
-code : Displays code snippets.
+`<video>` : Embeds video files into the webpage.
 
-pre : Preserves spaces and line breaks exactly as written.
+`<source>` : Specifies media files for audio or video elements.
 
-sup : Displays superscript text.
+`<figure>` : Groups images, diagrams, or illustrations with captions.
 
-sub : Displays subscript text.
+`<figcaption>` : Adds a caption to a figure element.
+
+`<details>` : Creates a collapsible section that users can open and close.
+
+`<summary>` : Defines the visible heading of a details element.
+
+`<mark>` : Highlights text with a colored background.
+
+`<code>` : Displays code snippets.
+
+`<pre>` : Preserves spaces and line breaks exactly as written.
+
+`<sup>` : Displays superscript text.
+
+`<sub>` : Displays subscript text.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## CSS 
+## CSS BASIC
 
-/* CSS Connection */
+* `<link rel="stylesheet" href="style.css">` : Connects the HTML file with a CSS file.
 
-<link rel="stylesheet" href="style.css"> : Connects the HTML file with a CSS file.
+### Selectors
 
-/* Selectors */
+* `* {}` : Selects all elements on the webpage.
 
-* {} : Selects all elements on the webpage.
+* `body {}` : Selects the body element.
 
-body {} : Selects the body element.
+* `.classname {}` : Selects elements with a specific class.
 
-.classname {} : Selects elements with a specific class.
+* `#idname {}` : Selects an element with a specific ID.
 
-#idname {} : Selects an element with a specific ID.
+* `h1 {}` : Selects all h1 headings.
 
-h1 {} : Selects all h1 headings.
+* `div p {}` : Selects all p tags inside div tags.
 
-div p {} : Selects all p tags inside div tags.
+* `div, p {}` : Selects multiple elements at once.
 
-div, p {} : Selects multiple elements at once.
+### Colors
 
-/* Colors */
+* `color: red;` : Changes text color.
 
-color: red; : Changes text color.
+* `background-color: blue;` : Changes background color.
 
-background-color: blue; : Changes background color.
+* `opacity: 0.5;` : Makes an element transparent.
 
-opacity: 0.5; : Makes an element transparent.
+### Text Styling
 
-/* Text Styling */
+* `font-size: 20px;` : Changes text size.
 
-font-size: 20px; : Changes text size.
+* `font-family: Arial;` : Changes font style.
 
-font-family: Arial; : Changes font style.
+* `font-weight: bold;` : Makes text bold.
 
-font-weight: bold; : Makes text bold.
+* `font-style: italic;` : Makes text italic.
 
-font-style: italic; : Makes text italic.
+* `text-align: center;` : Aligns text horizontally.
 
-text-align: center; : Aligns text horizontally.
+* `text-decoration: none;` : Removes underline from links.
 
-text-decoration: none; : Removes underline from links.
+* `text-transform: uppercase;` : Converts text to uppercase.
 
-text-transform: uppercase; : Converts text to uppercase.
+* `line-height: 1.5;` : Controls spacing between lines.
 
-line-height: 1.5; : Controls spacing between lines.
+* `letter-spacing: 2px;` : Controls spacing between letters.
 
-letter-spacing: 2px; : Controls spacing between letters.
+### Width & Height
 
-/* Width & Height */
+* `width: 300px;` : Sets element width.
 
-width: 300px; : Sets element width.
+* `height: 200px;` : Sets element height.
 
-height: 200px; : Sets element height.
+* `max-width: 100%;` : Maximum allowed width.
 
-max-width: 100%; : Maximum allowed width.
+* `min-height: 100px;` : Minimum allowed height.
 
-min-height: 100px; : Minimum allowed height.
+### Margin
 
-/* Margin */
+* `margin: 20px;` : Space outside an element.
 
-margin: 20px; : Space outside an element.
+* `margin-top: 10px;` : Top outer space.
 
-margin-top: 10px; : Top outer space.
+* `margin-right: 10px;` : Right outer space.
 
-margin-right: 10px; : Right outer space.
+* `margin-bottom: 10px;` : Bottom outer space.
 
-margin-bottom: 10px; : Bottom outer space.
+* `margin-left: 10px;` : Left outer space.
 
-margin-left: 10px; : Left outer space.
+* `margin: 10px 20px;` : Top-Bottom | Left-Right.
 
-margin: 10px 20px; : Top-Bottom | Left-Right.
+* `margin: auto;` : Centers block elements horizontally.
 
-margin: auto; : Centers block elements horizontally.
+### Padding
 
-/* Padding */
+* `padding: 20px;` : Space inside an element.
 
-padding: 20px; : Space inside an element.
+* `padding-top: 10px;` : Top inner space.
 
-padding-top: 10px; : Top inner space.
+* `padding-right: 10px;` : Right inner space.
 
-padding-right: 10px; : Right inner space.
+* `padding-bottom: 10px;` : Bottom inner space.
 
-padding-bottom: 10px; : Bottom inner space.
+* `padding-left: 10px;` : Left inner space.
 
-padding-left: 10px; : Left inner space.
+### Border
 
-/* Border */
+* `border: 2px solid black;` : Creates a border.
 
-border: 2px solid black; : Creates a border.
+* `border-radius: 10px;` : Creates rounded corners.
 
-border-radius: 10px; : Creates rounded corners.
+* `border-color: red;` : Changes border color.
 
-border-color: red; : Changes border color.
+* `border-width: 5px;` : Changes border thickness.
 
-border-width: 5px; : Changes border thickness.
+### Display
 
-/* Display */
+* `display: block;` : Element takes full width.
 
-display: block; : Element takes full width.
+* `display: inline;` : Element takes only required width.
 
-display: inline; : Element takes only required width.
+* `display: inline-block;` : Inline element with width and height support.
 
-display: inline-block; : Inline element with width and height support.
+* `display: none;` : Hides the element.
 
-display: none; : Hides the element.
+* `display: flex;` : Enables Flexbox layout.
 
-display: flex; : Enables Flexbox layout.
+* `display: grid;` : Enables Grid layout.
 
-display: grid; : Enables Grid layout.
+### Positioning
 
-/* Positioning */
+* `position: static;` : Default position.
 
-position: static; : Default position.
+* `position: relative;` : Moves relative to its normal position.
 
-position: relative; : Moves relative to its normal position.
+* `position: absolute;` : Positions relative to nearest positioned parent.
 
-position: absolute; : Positions relative to nearest positioned parent.
+* `position: fixed;` : Stays fixed while scrolling.
 
-position: fixed; : Stays fixed while scrolling.
+* `position: sticky;` : Sticks when scrolling reaches a point.
 
-position: sticky; : Sticks when scrolling reaches a point.
+* `top: 10px;` : Moves element from top.
 
-top: 10px; : Moves element from top.
+* `right: 10px;` : Moves element from right.
 
-right: 10px; : Moves element from right.
+* `bottom: 10px;` : Moves element from bottom.
 
-bottom: 10px; : Moves element from bottom.
+* `left: 10px;` : Moves element from left.
 
-left: 10px; : Moves element from left.
+* `z-index: 10;` : Controls stacking order.
 
-z-index: 10; : Controls stacking order.
+### Flexbox
 
-/* Flexbox */
+* `display: flex;` : Activates Flexbox.
 
-display: flex; : Activates Flexbox.
+* `flex-direction: row;` : Horizontal layout.
 
-flex-direction: row; : Horizontal layout.
+* `flex-direction: column;` : Vertical layout.
 
-flex-direction: column; : Vertical layout.
+* `justify-content: center;` : Horizontal alignment.
 
-justify-content: center; : Horizontal alignment.
+* `align-items: center;` : Vertical alignment.
 
-align-items: center; : Vertical alignment.
+* `gap: 20px;` : Space between flex items.
 
-gap: 20px; : Space between flex items.
+* `flex-wrap: wrap;` : Allows items to move to next line.
 
-flex-wrap: wrap; : Allows items to move to next line.
+### Grid
 
-/* Grid */
+* `display: grid;` : Activates CSS Grid.
 
-display: grid; : Activates CSS Grid.
+* `grid-template-columns: 1fr 1fr;` : Creates columns.
 
-grid-template-columns: 1fr 1fr; : Creates columns.
+* `grid-template-rows: auto;` : Creates rows.
 
-grid-template-rows: auto; : Creates rows.
+* `gap: 20px;` : Space between grid items.
 
-gap: 20px; : Space between grid items.
+### Background
 
-/* Background */
+* `background-image: url("image.jpg");` : Adds background image.
 
-background-image: url("image.jpg"); : Adds background image.
+* `background-size: cover;` : Covers entire element.
 
-background-size: cover; : Covers entire element.
+* `background-repeat: no-repeat;` : Prevents image repetition.
 
-background-repeat: no-repeat; : Prevents image repetition.
+* `background-position: center;` : Centers background image.
 
-background-position: center; : Centers background image.
+### Images
 
-/* Images */
+* `object-fit: cover;` : Fits image without distortion.
 
-object-fit: cover; : Fits image without distortion.
+* `object-position: center;` : Positions image inside container.
 
-object-position: center; : Positions image inside container.
+### Cursor
 
-/* Cursor */
+* `cursor: pointer;` : Changes cursor to hand icon.
 
-cursor: pointer; : Changes cursor to hand icon.
+* `cursor: not-allowed;` : Shows restricted cursor.
 
-cursor: not-allowed; : Shows restricted cursor.
+### Shadows
 
-/* Shadows */
+* `box-shadow: 0px 0px 10px black;` : Adds shadow around an element.
 
-box-shadow: 0px 0px 10px black; : Adds shadow around element.
+* `text-shadow: 2px 2px 5px black;` : Adds shadow to text.
 
-text-shadow: 2px 2px 5px black; : Adds shadow to text.
+### Overflow
 
-/* Overflow */
+* `overflow: hidden;` : Hides extra content.
 
-overflow: hidden; : Hides extra content.
+* `overflow: scroll;` : Adds scrollbars.
 
-overflow: scroll; : Adds scrollbars.
+* `overflow: auto;` : Adds scrollbars only when needed.
 
-overflow: auto; : Adds scrollbars only when needed.
+### Transitions
 
-/* Transitions */
+* `transition: 0.3s;` : Smooth animation effect.
 
-transition: 0.3s; : Smooth animation effect.
+* `transition: all 0.3s ease;` : Animates all changes smoothly.
 
-transition: all 0.3s ease; : Animates all changes smoothly.
+### Transform
 
-/* Transform */
+* `transform: scale(1.1);` : Enlarges element.
 
-transform: scale(1.1); : Enlarges element.
+* `transform: rotate(45deg);` : Rotates element.
 
-transform: rotate(45deg); : Rotates element.
+* `transform: translateX(50px);` : Moves horizontally.
 
-transform: translateX(50px); : Moves horizontally.
+* `transform: translateY(50px);` : Moves vertically.
 
-transform: translateY(50px); : Moves vertically.
+### Hover Effects
 
-/* Hover Effects */
+* `:hover` : Applies styles when mouse hovers over an element.
 
-:hover : Applies styles when mouse hovers.
+### Animations
 
-Example:
-button:hover {
-    background-color: blue;
-}
+* `@keyframes animationName {}` : Defines an animation.
 
-/* Animations */
+* `animation: slide 2s infinite;` : Runs animation continuously.
 
-@keyframes animationName {} : Defines animation.
+### Lists
 
-animation: slide 2s infinite; : Runs animation continuously.
+* `list-style: none;` : Removes bullets from lists.
 
-/* Lists */
+### Visibility
 
-list-style: none; : Removes bullets from lists.
+* `visibility: hidden;` : Hides element but keeps its space.
 
-/* Visibility */
+* `visibility: visible;` : Shows element.
 
-visibility: hidden; : Hides element but keeps space.
+### Common Units
 
-visibility: visible; : Shows element.
+* `px` : Fixed pixels.
 
-/* Common Units */
+* `%` : Percentage of parent element.
 
-px : Fixed pixels.
+* `vw` : Percentage of viewport width.
 
-% : Percentage of parent element.
+* `vh` : Percentage of viewport height.
 
-vw : Percentage of viewport width.
+* `rem` : Relative to the root font size.
 
-vh : Percentage of viewport height.
+* `em` : Relative to the parent font size.
 
-rem : Relative to root font size.
-
-em : Relative to parent font size.
-
-/* Most Used CSS Properties */
-
-color
-background-color
-font-size
-font-family
-font-weight
-width
-height
-margin
-padding
-border
-border-radius
-display
-flex
-justify-content
-align-items
-gap
-position
-top
-left
-right
-bottom
-z-index
-box-shadow
-text-align
-cursor
-transition
 transform
 overflow
