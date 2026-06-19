@@ -1,3 +1,6 @@
+/* Here This .sub is in the .html code. Here we can access it by ".sub" name which is inside the .html code and like wise we can also access .tw and .jo too 
+   because here we have made class name so that we can access .htlm code into the .css class */
+
     .sub{
         background-color: rgb(187, 0, 0);
         color: white;
@@ -8,6 +11,16 @@
         cursor: pointer;
         margin-right: 8px;
     }
+
+/* Here there are so many type of hovering effects and we will try some of them on these buttons. */
+
+    .sub:hover{
+        opacity: 0.8;
+    }
+    .sub:active{
+        opacity: 0.5;
+    }
+
 
     .tw{
         background-color: rgb(0, 0, 255);
@@ -20,6 +33,14 @@
         margin-right: 8px;
     }
 
+   .tw:hover{
+        box-shadow: 4px 4px 3px gray;
+    }
+    .tw:active{
+        opacity : 0.6;
+    }
+        
+
     .jo{
         background-attachment: white;
         color: blue;
@@ -28,4 +49,13 @@
         width: 80px;
         cursor: pointer;
         border-radius: 2px;
+    }
+
+     .jo:hover{
+        background-color: blue;
+        color : white;
+    }
+
+    .jo:active{
+        opacity : 0.7;
     }
