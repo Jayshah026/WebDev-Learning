@@ -1,3 +1,55 @@
+p{
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
 .Text_1{
     font-family: Arial;
+    font-size: 20px;
+    color:balck;
 }
+
+.Text_2{
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.New{
+    color:rgb(235, 153, 0);
+    font-size: 15px;
+    display: block; 
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.Mac{
+    color:black;
+    font-size: 25px;
+    display:block;
+    margin-bottom: 0px;
+}
+
+.Super{
+    color:black;
+    font-size: 45px;
+    display:block;
+    margin-bottom: 5px;
+}
+
+.From{
+    color:black;
+    font-size: 17px;
+    display:block;
+    margin-bottom: 5px;
+}
+
+.BuyButton{
+    color:white;
+    background-color: rgba(8, 8, 222, 0.818);
+    border-radius: 20px;
+    font-size: 15px;
+}
+
