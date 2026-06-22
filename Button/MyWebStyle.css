@@ -1,0 +1,54 @@
+    .sub{
+        background-color: rgb(187, 0, 0);
+        color: white;
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+    }
+
+    .sub:hover{
+        opacity: 0.8;
+    }
+    .sub:active{
+        opacity: 0.5;
+    }
+
+    .tw{
+        background-color: rgb(0, 0, 255);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        height: 35px;
+        width: 100px;
+        margin-right: 8px;
+    }
+
+    .tw:hover{
+        box-shadow: 4px 4px 3px gray;
+    }
+    .tw:active{
+        opacity : 0.6;
+    }
+
+    .jo{
+        background-attachment: white;
+        color: blue;
+        border-color: blue;;
+        height: 40px;
+        width: 80px;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+    .jo:hover{
+        background-color: blue;
+        color : white;
+    }
+
+    .jo:active{
+        opacity : 0.7;
+    }
